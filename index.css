@@ -1,0 +1,73 @@
+body {
+background-color: #ffffff;
+  }
+
+.chat-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-container{
+    position: fixed;
+    height: 810px;
+    width: 20%;
+    background: #0f0913;
+    margin: 20px;
+    border-radius: 20px;
+
+   
+}
+
+.right-container{
+    position: fixed;
+    height: 810px;
+    width: 70%;
+    background: #0f0913;
+    margin: 20px;
+    margin-left: 25%;
+    border-radius: 20px;
+}
+
+/* logo container */
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* logo */
+.logo {
+    max-width: 50px;
+    margin-left: 20px;
+}
+
+/* nooby text */
+.logo-text {
+    margin-left: 20px; 
+    font-size: 16px;
+    align-items: center;
+    color: aliceblue;
+    font-size: xx-large;
+    vertical-align: middle; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Yo/* Your existing CSS styles ... */
+
+.toggle-button {
+    background: #000000;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+.drawer-open #left-container {
+    transform: translateX(0);
+}
+
+
